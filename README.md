@@ -1,46 +1,44 @@
-# InDreamer
+<h1 align="center">VainProphet</h1>
 
-I build practical interfaces and tooling for serious AI workflows.
+<p align="center"><em>A prophet who sees everything but changes nothing.</em></p>
 
-Focused on self-hosted agent systems, developer tooling, and products that make powerful runtimes feel usable instead of chaotic.
-
-## What I Care About
-
-- calm control surfaces for powerful AI tools
-- agent infrastructure that works on real machines, not only in demos
-- practical developer systems with clear operator ergonomics
-
-## Selected Projects
-
-| Project | What it does |
-| --- | --- |
-| [`telegram-codex-bridge`](https://github.com/InDreamer/telegram-codex-bridge) | Use Codex from Telegram with project-aware sessions, approvals, runtime cards, and self-hosted install flow. |
-| [`companion-lite`](https://github.com/InDreamer/companion-lite) | Web-based CLI and filesystem visualization platform. |
-| [`claude-context-patch`](https://github.com/InDreamer/claude-context-patch) | Small utility repo around Claude Code context-window patching and related workflow tuning. |
-
-## Current Focus
-
-- making remote AI coding workflows feel trustworthy on mobile
-- turning raw terminal-heavy agent tooling into clearer product experiences
-- building operator-first bridges between chat interfaces and local runtimes
-
-## Working Style
-
-- prefer shipped tools over concept decks
-- care about install flow, recovery, and day-2 operations
-- optimize for clarity, speed, and leverage
-
-## Find Me Here
-
-- GitHub: [@InDreamer](https://github.com/InDreamer)
-- Main project right now: [`telegram-codex-bridge`](https://github.com/InDreamer/telegram-codex-bridge)
+<p align="center">
+  自称先知，只是预言永远不管用。<br/>
+  Building self-hosted AI tools that run on real servers, not just in demos.
+</p>
 
 ---
 
-在做偏实战的 AI Agent / 开发者工具项目。
+### What I'm Building
 
-我更关注这些方向：
+<table>
+<tr>
+<td width="120" align="center">
+  <a href="https://github.com/InDreamer/telegram-codex-bridge">
+    <img src="https://cdn.jsdelivr.net/gh/walkxcode/dashboard-icons/svg/telegram.svg" width="48" alt="telegram-codex-bridge" />
+    <br/><strong>telegram-codex-bridge</strong>
+  </a>
+</td>
+<td>
 
-- 真正能跑在 VPS 或本机上的 Agent 工作流
-- 面向日常使用而不是只适合演示的产品体验
-- 把强大但难用的工具，做成更清晰、更稳定、更可信的界面
+**Control Codex from your phone. No terminal. No laptop. Just Telegram.**
+
+Codex on a VPS is powerful — but reaching it through SSH on your phone is miserable.
+This bridge gives you a Telegram-native control surface: project-aware sessions, runtime cards, approval flows, and one-line install.
+
+[![GitHub stars](https://img.shields.io/github/stars/InDreamer/telegram-codex-bridge?style=flat&label=stars)](https://github.com/InDreamer/telegram-codex-bridge/stargazers)
+[![CI](https://github.com/InDreamer/telegram-codex-bridge/actions/workflows/ci.yml/badge.svg)](https://github.com/InDreamer/telegram-codex-bridge/actions/workflows/ci.yml)
+
+</td>
+</tr>
+</table>
+
+**Get started in one line:**
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/InDreamer/telegram-codex-bridge/master/scripts/install-skill-from-github.sh | bash
+```
+
+---
+
+<sub>I ship tools, not decks. If it doesn't run on your machine, it's not done.</sub>
